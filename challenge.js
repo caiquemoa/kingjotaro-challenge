@@ -46,6 +46,7 @@ data.forEach((item) => {
   match[key].products.push({
     title: item.title,
     supermarket: item.supermarket,
+    price: item.price,
   })
 })
 
